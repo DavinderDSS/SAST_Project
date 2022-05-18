@@ -1,0 +1,80 @@
+﻿body
+{
+	font-family: Courier New;
+	font-size: medium;
+	background-color: white;
+}
+.MyTable
+{
+	background-color: white;
+	font-family: 'Courier New';
+	font-size: small;
+	width: auto;
+	font-weight: bold;
+}
+.MyTextBox
+{
+	background-color: white;
+	overflow: auto;
+	
+}
+.MyDiv
+{
+	width: 98%;
+	height: 500px;
+	overflow:auto;
+	
+}
+.FormButton
+{
+cursor:pointer;
+border:outset 2px maroon;
+background:#888;
+color:#111;
+font-weight:bold;
+padding: 1px 2px;
+background:url(media/formbg.gif) repeat-x left top;
+}
+
+.MyTextBox1
+{
+	border-right: dimgray thin solid;
+	border-top: dimgray thin solid;
+	font-weight: bold;
+	font-size: 11pt;
+	border-left: dimgray thin solid;
+	color: blue;
+	border-bottom: dimgray thin solid;
+	font-family: 'Courier New';
+	background-color: white;
+}
+
+.NewJoineeTable
+{
+	border-bottom: #5d7b9d solid;
+	border-left: #5d7b9d solid;
+	background-color: #F7F6F3;
+	border-top: #5d7b9d solid;
+	border-right: #5d7b9d solid;
+	
+}
+.MyTD
+{
+	background-color: transparent;
+	border-style:solid;
+	border-color:Navy;
+}
+.MyTH
+{
+	background-color: transparent;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-color:Navy;
+	cursor:pointer;
+}
+
+
+
+
+	
+

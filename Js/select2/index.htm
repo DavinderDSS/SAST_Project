@@ -1,0 +1,32 @@
+<html>
+<title>select2 jquery plugin demo</title>
+<head>
+<link href="select2.css" rel="stylesheet"/>
+<script language="javascript" type="text/javascript" src="jquery.js"></script> 
+<script language="javascript" type="text/javascript" src="select2.js"></script> 
+<script language="javascript" type="text/javascript">
+        $(document).ready(function() { 
+        $("#e1").select2();
+        });
+function ShowSelected()
+{
+	alert($("#e1").val());
+}
+    </script>
+<style type="text/css">
+.select2-container-multi .select2-choices {
+    width: 150px;
+}
+</style>
+</head>
+<body>
+<input type="hidden" id="1234">
+<select multiple id="e1" onchange="ShowSelected();">
+        <option value="AL">Alabama</option>
+        <option value="Am">Amalapuram</option>
+        <option value="An">Anakapalli</option>
+        <option value="Ak">Akkayapalem</option>
+        <option value="WY">Wyoming</option>
+    </select>
+</body>
+</html>
